@@ -122,7 +122,8 @@ AI Reviewer checks deliverable against acceptance criteria
 ## 8. Deployed Contracts & Live App
 
 - **Network:** Monad Testnet (`chainId: 10143`)
-- **Contract Address:** `0x...` *(Updated upon live deployment)*
+- **Contract Address:** [`0x1304cF51bD09a93142d0EDB64b8443f849c28c43`](https://testnet.monadexplorer.com/address/0x1304cF51bD09a93142d0EDB64b8443f849c28c43)
+- **Deployment Tx:** [`0x8b08304d418a3ed9540317aae085f82fa6ade8594889857e0caf3af60af78152`](https://testnet.monadexplorer.com/tx/0x8b08304d418a3ed9540317aae085f82fa6ade8594889857e0caf3af60af78152)
 - **Explorer:** [https://testnet.monadexplorer.com](https://testnet.monadexplorer.com)
 - **Live Frontend:** `https://trusthire.vercel.app` *(or Vercel URL)*
 

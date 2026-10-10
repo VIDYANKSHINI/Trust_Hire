@@ -20,8 +20,13 @@ const config: HardhatUserConfig = {
     monadTestnet: {
       url: process.env.RPC_URL || "https://testnet-rpc.monad.xyz",
       chainId: 10143,
+      timeout: 60000,
       accounts: process.env.DEPLOYER_PRIVATE_KEY
-        ? [process.env.DEPLOYER_PRIVATE_KEY]
+        ? [
+            process.env.DEPLOYER_PRIVATE_KEY.startsWith("0x")
+              ? process.env.DEPLOYER_PRIVATE_KEY
+              : `0x${process.env.DEPLOYER_PRIVATE_KEY}`,
+          ]
         : [],
     },
   },

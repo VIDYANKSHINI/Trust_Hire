@@ -1,0 +1,17 @@
+{
+  "address": "0x1304cF51bD09a93142d0EDB64b8443f849c28c43",
+  "deployer": "0xca4CE2169d4fFee7c2560A136Df4cc9792eebD74",
+  "txHash": "0x8b08304d418a3ed9540317aae085f82fa6ade8594889857e0caf3af60af78152",
+  "blockNumber": 69798337,
+  "args": [
+    "0x2ABeA64944c05282480b7D87B96b526110Eb6aAf",
+    "0xca4CE2169d4fFee7c2560A136Df4cc9792eebD74",
+    "0xca4CE2169d4fFee7c2560A136Df4cc9792eebD74",
+    200,
+    7500,
+    9500,
+    30,
+    90,
+    300
+  ]
+}
