@@ -34,7 +34,7 @@ export interface Stats {
   disputed: number;
 }
 
-export type Provider = "jev" | "llm";
+export type Provider = "jev" | "llm" | "error";
 
 export interface Application {
   applicant: Address;
